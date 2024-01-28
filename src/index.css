@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background-color: #E5E7EB;
+}
+
+.hoverAnim {
+  position: relative;
+}
+
+.hoverAnim::before {
+  content: "";
+  position: absolute;
+  background-color: #ef1827;
+  width: 0;
+  top: 88%;
+  height: 2px;
+  animation: animateLine 0.5s forwards;
+}
+
+@keyframes animateLine {
+  100% {
+    width: 100%;
+  }
+}
+
+
+
+.slick-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .styleClass {
+    display: none;
+    
+  }
+  .fs{
+    font-size: 12px;
+  }
+}
