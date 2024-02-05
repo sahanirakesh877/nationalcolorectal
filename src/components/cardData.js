@@ -1,14 +1,19 @@
-import IbdImg from "/img1.jpg";
-import colonCancerImg from "/img2.jpg";
-import constipationImg from "/img3.jpg";
-import rectalCancerImg from "/img4.jpg";
+import IbdImg from "/IBD.png";
+import colonCancerImg from "/colCan.png";
+import constipationImg from "/constipation.png";
+import rectalCancerImg from "/rectalCancer.png";
+import pilesImg from "/piles.png";
+import fistulaImg from "/fistula.png";
+import fissureImg from "/fissure.png";
+import sinusImg from "/pinodialSinus.png";
+import polypImg from "/polyp.png";
+import prolapseImg from "/prolapse.png";
 
 const cards = [
     // Haemmoroids
     {
         id: 1,
-        image: "https://img.freepik.com/premium-photo/man-with-diarrhea-problem-man-with-toilet-paper-hand-touching-his-buttock-man-with-hemorrhoid-problem-isolated-background_550253-1214.jpg?w=740",
-        //"https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        image: pilesImg,
         title: "Piles/Hemorrhoids",
         description:
             "Hemorrhoids are a normal part of the anal canal described as a 'Vascular Cushion'. Any pathology (bleeding/swollen) of the vascular cushion is known as hemorrhoids. Hemorrhoids develop inside the rectum, called internal hemorrhoids. These develop under the skin around the anus, called external hemorrhoids.",
@@ -90,7 +95,7 @@ const cards = [
     //Anal Fissure ***
     {
         id: 2,
-        image: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        image: fissureImg,
         title: "Anal Fissure",
         description:
             "A fissure in one is a painful linear ulcer situated in anal canal extending from just below the Dentate line to the margin of anus. ",
@@ -383,7 +388,7 @@ const cards = [
     //Fistula ***
     {
         id: 7,
-        image: "https://img.freepik.com/free-photo/asian-boy-sitting-toilet-bowl-holding-tissue-paper-health-problem-concept_1150-6594.jpg?w=996&t=st=1707121391~exp=1707121991~hmac=46b950b6a4275542d8f7e4401324e19e8a31662715d0c7e6f06523c8e1d80b60",
+        image: fistulaImg,
         title: "Fistula is ANO  ",
         description:
             "A fistula in ano is an abnormal hollow tract or cavity, i.e., lined with granulation tissue, that connects a primary opening inside the anal canal to a secondary opening in the perineal scheme",
@@ -453,7 +458,7 @@ const cards = [
     //Pilonidal Sinus
     {
         id: 8, //LEFT TO EDIT
-        image: colonCancerImg,
+        image: sinusImg,
         title: "Pilonidal Sinus",
         description:
             "Primarily described as an inflammatory disorder, Crohn’s disease can decrease your body’s ability to digest food, absorb nutrients, and remove waste.",
@@ -468,7 +473,7 @@ const cards = [
     //Rectal Prolapse ***
     {
         id: 9,
-        image: colonCancerImg,
+        image: prolapseImg,
         title: "Rectal Prolapse",
         description:
             "Extrusion of the full thickness of the circular fold of the rectum through the anal muscles beyond the anal verge.",
@@ -548,7 +553,7 @@ const cards = [
     //Polyp
     {
         id: 10, //LEFT TO EDIT
-        image: colonCancerImg,
+        image: polypImg,
         title: "Polyp",
         description:
             "Primarily described as an inflammatory disorder, Crohn’s disease can decrease your body’s ability to digest food, absorb nutrients, and remove waste.",

@@ -3,6 +3,8 @@ import { titles } from "../data/navData";
 import { Link, useLocation } from "react-router-dom";
 import HambergerMenu from "./Hmaburger";
 
+import logoImg from "/nccnepal.png";
+
 const Navbar = () => {
     const location = useLocation();
     const [scrolling, setScrolling] = useState(false);
@@ -49,7 +51,7 @@ const Navbar = () => {
                     <Link to="/">
                         <div className="flex items-center text-slate-600 group">
                             <img
-                                src="/nccnepal.png"
+                                src={logoImg}
                                 alt="Logo"
                                 className="h-14 w-auto group-hover:scale-110"
                             />
