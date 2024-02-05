@@ -383,7 +383,7 @@ const cards = [
     //Fistula ***
     {
         id: 7,
-        image: IbdImg,
+        image: "https://img.freepik.com/free-photo/asian-boy-sitting-toilet-bowl-holding-tissue-paper-health-problem-concept_1150-6594.jpg?w=996&t=st=1707121391~exp=1707121991~hmac=46b950b6a4275542d8f7e4401324e19e8a31662715d0c7e6f06523c8e1d80b60",
         title: "Fistula is ANO  ",
         description:
             "A fistula in ano is an abnormal hollow tract or cavity, i.e., lined with granulation tissue, that connects a primary opening inside the anal canal to a secondary opening in the perineal scheme",

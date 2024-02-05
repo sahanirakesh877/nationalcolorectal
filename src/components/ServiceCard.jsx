@@ -18,8 +18,8 @@ const ServiceCard = (props) => {
                     <p className="mb-3 text-sm font-normal text-gray-700 dark:text-gray-400 line-clamp-2">
                         {props.description}
                     </p>
-                    <p className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-900 rounded-lg hover:bg-slate-600 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-slate-600 dark:hover:bg-slate-700 dark:focus:ring-slate-800">
-                        Read more
+                    <p className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#464a47] rounded-lg hover:bg-slate-600 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-slate-600 dark:hover:bg-slate-700 dark:focus:ring-slate-800">
+                        View more
                         <svg
                             className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
                             aria-hidden="true"

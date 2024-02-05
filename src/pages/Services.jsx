@@ -17,7 +17,7 @@ const Services = () => {
                 </h1>
             </div>
 
-            <div className="container mx-auto pb-[70px] pt-10 grid lg:grid-cols-3 sm:grid-cols-1 sm:px-10 gap-8 px-4">
+            <div className="container mx-auto pb-[70px] pt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8 px-4 place-items-center">
                 {limitedServices.map((item) => (
                     <Link key={item.id} to={`/services/${item.id}`}>
                         <ServiceCard
